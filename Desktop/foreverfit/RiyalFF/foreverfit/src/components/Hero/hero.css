@@ -1,0 +1,42 @@
+.hero-div {
+    height: 200vh; /* Set the height to 200% of the viewport height */
+    background-color: #0074d9 , #ffffff; /* Example background color; you can change this */
+    color: black; /* Example text color; you can change this */
+    text-align: center; /* Example text alignment; you can change this */
+    font-size: 24px; /* Example font size; you can change this */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10%; /* Example padding; you can change this */
+}
+
+.logo img {
+    z-index: -1;
+    position: relative;
+    top: -50px;
+    width: 300px;
+    height: auto;
+
+}
+.info{
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.column:nth-child(1){
+    flex: 40%;
+    text-align: center;
+    align-self: center;
+    padding-left: 5%;
+}
+.column:nth-child(2){
+    flex: 40%;
+    align-self: self-end;
+}
+.column:nth-child(2) img{
+    width: 500px;
+    height: auto;
+    top:-150px;
+}

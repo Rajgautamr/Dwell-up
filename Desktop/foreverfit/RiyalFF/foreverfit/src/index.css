@@ -1,0 +1,18 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,500;1,700&family=Poppins:wght@100;400;500&family=Satisfy&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0% 0%;
+    padding: 0%;
+  }
+  :root {
+    --font-family: 'Montserrat', sans-serif;
+
+    
+    --color-bg: #FEFCFB;
+    --color-sub : #1282A2;
+    --color-sub2: #034078;
+    --color-acent1: #001F54;
+    --color-acent2: #0A1128;
+  }

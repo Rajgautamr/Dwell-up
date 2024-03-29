@@ -1,0 +1,53 @@
+.Header{
+    margin: 0% 0%;
+    margin: 0%;
+    padding: 10px 5%;
+    display: flex;
+      justify-content: space-between;
+      align-items:center; 
+      background-color: var(--color-sub);
+
+}
+
+img{
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+}
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0% 20px;
+    display: inline;
+    font-size: 24px;
+}
+
+ul{
+
+    color: var(--primary-color);
+
+
+}
+button {
+    border: 1px solid black;
+    padding: 12px 30px 12px 30px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 0px 0px 1px;
+    transform: all 2s esase;
+    transition-duration: .3s;
+  }
+  
+  button:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 1px rgb(0, 0, 0);
+    border: 1px solid black;
+  }
+  
+  button:active {
+    transform: translateY(10px);
+    box-shadow: 0px 0px 1px;
+  }
+    

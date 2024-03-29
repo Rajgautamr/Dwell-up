@@ -1,0 +1,19 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0% ;
+  }
+  body{
+    margin: 0% ;
+    padding: 0%;
+    background-image: url('./assets/imgs/img1.svg'), url('./assets/imgs/img2.svg'); /* Replace with your image paths */
+    background-repeat: repeat-y, repeat-y; 
+    background-size: auto 50vw , auto 50vw;/* Prevent image repetition */ /* Set the size for each image (width 50%, height 100%) */
+    background-position: left, right;
+  }
+  /* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Satisfy', cursive; */
